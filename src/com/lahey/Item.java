@@ -50,7 +50,7 @@ public class Item {
     public void setBIsLost(boolean lost){
         this.bIsLost = lost;
     }
-    public boolean getBIsDeleted(){
+    public boolean getBIsLost(){
         return this.bIsLost;
     }
 
@@ -58,7 +58,7 @@ public class Item {
     public void setBIsDeleted(boolean value){
         this.bIsDeleted = value;
     }
-    public boolean getBIsLost(){
+    public boolean getBIsDeleted(){
         return this.bIsDeleted;
     }
 
