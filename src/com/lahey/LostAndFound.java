@@ -197,7 +197,7 @@ public class LostAndFound {
         //get name of lost item
         System.out.println("What is the name of your lost item?");
 
-        sInputString = scan.nextLine();
+        sInputString = scan.nextLine().toLowerCase();
         newItem.setItemName(sInputString);
 
         list.add(newItem);
@@ -208,13 +208,15 @@ public class LostAndFound {
 
         System.out.println("\nFind Lost Items");
 
+
+
 //        String sInputString = "";
 //        char categorySelection = ' ';
 //        char deleteYesNo = ' ';
 //        Item foundItem = null;
 ////        String newItemCategory = "";
-////        String inputItemName = "";
-//
+//        String inputItemName = "";
+
 //        //get category of lost item
 //        do {
 //            System.out.println("Please Choose Category of your lost item, \"C\" Clothing or \"P\" Pet, or \"O\" Other");
