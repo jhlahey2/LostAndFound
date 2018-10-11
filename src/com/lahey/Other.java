@@ -1,5 +1,8 @@
 package com.lahey;
 
+/**
+ * @author jack lahey
+ */
 public class Other extends Item {
 
     //override default constructor
